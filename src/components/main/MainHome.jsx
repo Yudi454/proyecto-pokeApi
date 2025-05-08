@@ -1,8 +1,10 @@
+import Buscador from "./Buscador"
 
 const MainHome = () => {
     return(
         <>
-        <p>Cuerpo de la pagina</p>
+        <Buscador/>
+        <p >Cuerpo de la pagina</p>
         </>
     )
 }

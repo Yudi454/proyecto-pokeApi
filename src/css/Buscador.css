@@ -1,0 +1,11 @@
+.BotonesBusqueda{
+    background-color: #dc2626;
+    padding: 3vh;
+    border: 3px solid black;
+    box-shadow: 2px 3px 5px black;
+    transition: 0.5s;
+}
+
+.BotonesBusqueda:hover{
+    transform: scale(1.1);
+}
