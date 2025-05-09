@@ -1,8 +1,14 @@
+import { useState } from "react";
+import Buscador from "./Buscador"
 
 const MainHome = () => {
+
+    const [valoresBusqueda, setValoresBusqueda] = useState({});
+
     return(
         <>
-        <p>Cuerpo de la pagina</p>
+        <Buscador valoresBusqueda={valoresBusqueda} setValoresBusqueda={setValoresBusqueda}/>
+        <p >Cuerpo de la pagina</p>
         </>
     )
 }
